@@ -49,6 +49,12 @@
 			<artifactId>mssql-jdbc</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		<!-- H2 DB JDBC -->
+		<dependency>
+    		<groupId>com.h2database</groupId>
+    		<artifactId>h2</artifactId>
+    		<scope>provided</scope>
+		</dependency>		
 		<!-- 前端library -->
 		<dependency>
 			<groupId>org.webjars</groupId>
