@@ -20,7 +20,7 @@ public class HomeController {
 		// 取出已存入DB的Model清單
 		List<org.activiti.engine.repository.Model> processModels = repositoryService.createModelQuery().list();		
         
-		ModelAndView modelAndView = new ModelAndView("/processes");
+		ModelAndView modelAndView = new ModelAndView("processes");
         modelAndView.addObject("processModels", processModels);
         return modelAndView;
 	}
